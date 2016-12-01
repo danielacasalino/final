@@ -8,9 +8,18 @@ body{
 	background-color: #FCECC9;
 }
 
-img{
+/*img{
 	width: 300px;
+}*/
+
+a:hover{
+	color:pink;
 }
+
+.menu h4 a:hover{
+	color: white;
+}
+
 
 .text-center{
 	font-style: italic;
@@ -21,12 +30,12 @@ img{
 }
 
 .col-md-6{
-	margin: 15px;
+	margin: 1%; 
 	background-color: #F0D2D1;
 }
 
 .container{
-	width: 85%;
+	width: 95%;
 	margin: 30px auto;
 	overflow: hidden;
 }
@@ -43,11 +52,21 @@ img{
 	
 }
 
-.galleryItem{
-	width: 27%;
-	margin: 1.5% 1.5% 40px 1.5%;
-	float: left;
+.col-md-5{
+	margin: 0.75%;
 }
 
+.email{
+	margin: 2%;
+	margin-top: 5%;
+}
 
+.contact{
+	background-color: #F0D2D1;
+}
 
+/*.thumbnail a>img, .thumbnail>img {
+	height: 255px;
+	width: 360px;
+}
+*/
